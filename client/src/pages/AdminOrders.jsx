@@ -13,6 +13,10 @@ const AdminOrders = ({ user, showFlash }) => {
 
   useEffect(() => {
     if (user && user.isAdmin) fetchOrders();
+    const interval = setInterval(() => {
+      fetchOrders();
+    }, 2000);
+    return () => clearInterval(interval);
   }, [user]);
 
   const updateStatus = async (id, status) => {

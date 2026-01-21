@@ -15,6 +15,10 @@ const Orders = ({ user }) => {
       }
     };
     if (user) fetchMyOrders();
+    const timer = setInterval(() => {
+      fetchMyOrders();
+    }, 2000);
+    return () => clearInterval(timer);
   }, [user]);
 
   return (
