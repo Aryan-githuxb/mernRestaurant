@@ -1,8 +1,11 @@
-# FoodOrder-MERN
+# mernRestaurant
 
 A complete Full-Stack Food Ordering application built with the MERN stack. This project focuses on clean architecture, secure authentication, and data integrity for e-commerce.
 
 ![Website Screenshot](mernRestaurantui1.png)
+
+---
+
 ![Website Screenshot](mernRestaurantui2.png)
 
 ## Key Features
