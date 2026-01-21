@@ -1,3 +1,4 @@
+add .env file
 # mernRestaurant
 
 A complete Full-Stack Food Ordering application built with the MERN stack. This project focuses on clean architecture, secure authentication, and data integrity for e-commerce.
